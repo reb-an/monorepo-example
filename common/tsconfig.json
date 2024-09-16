@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "Node16",
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "./dist",
+    "composite": true,
+    "lib": ["ES6", "DOM", "ES2019"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "moduleResolution": "Node16",
+    "paths": {
+      "@tools/*": ["./tools/*"]
+    }
+  }
+}
